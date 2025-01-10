@@ -1,7 +1,57 @@
+*{
+    background-color: rgb(9, 18, 27);
+    color: aliceblue;
+}
+.body{
+    background-color:inherit;
+    color: aliceblue;
+}
+
+nav{
+    margin-bottom: 0px;
+}
 #navbarNav{
+    
     justify-content: right;
     margin-right: 5%;
 }
 .container-fluid .img{
     margin-left: 5%;
+}
+.container-fluid p{
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.nav-link{
+    margin-left: 12px;
+}
+.nav-item{
+    color: white;
+}
+.title{
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+.rubiks{
+    margin-top: -5px;
+    margin-bottom: -15px;
+    font-size: 5rem;
+}
+.club{
+    margin-left: 75px;
+    word-spacing: -3px;
+}
+.notice{
+    margin-top: 0%;
+    text-align: center;
+    background: #000;
+}
+.description{
+    background-color: rgb(9, 18, 27);
+    text-align: center;
+    margin: 10px 30px 10px 30px;
 }
